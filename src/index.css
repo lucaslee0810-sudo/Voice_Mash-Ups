@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;600;700&display=swap');
+
+:root {
+  --font-display: 'Bangers', cursive;
+  --font-body: 'Nunito', sans-serif;
+  --accent: #00e5ff;
+  --bg: #0a0a12;
+  --surface: #ffffff06;
+  --border: #ffffff10;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: #fff;
+  min-height: 100vh;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input::placeholder { color: #555; }
+
+button { -webkit-tap-highlight-color: transparent; }
+
+@keyframes recordPulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 30px #ff333344; }
+  50% { transform: scale(1.06); box-shadow: 0 0 50px #ff333366; }
+}
+
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes soundBar {
+  from { height: 8px; }
+  to { height: 20px; }
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.8); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
