@@ -142,9 +142,9 @@ export default function App() {
     return (
       <div style={{ minHeight: '100vh', background: 'radial-gradient(ellipse at 50% 0%, #1a1a2e 0%, #0a0a12 60%)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 20 }}>
         <div style={{ textAlign: 'center', marginBottom: 40 }}>
-          <div style={{ fontSize: 64, marginBottom: 8 }}>🎤</div>
-          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 36, letterSpacing: 2, background: 'linear-gradient(90deg, #00e5ff, #76ff03, #ffea00)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', margin: 0 }}>VOICE SWAP</h1>
-          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 36, letterSpacing: 2, background: 'linear-gradient(90deg, #ffea00, #ff6b6b, #a855f7)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', margin: 0, marginTop: -4 }}>STORIES</h1>
+          <div style={{ fontSize: 64, marginBottom: 8 }}>💥</div>
+          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 42, letterSpacing: 2, background: 'linear-gradient(90deg, #00e5ff, #76ff03, #ffea00)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', margin: 0 }}>STORY</h1>
+          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 42, letterSpacing: 2, background: 'linear-gradient(90deg, #ffea00, #ff6b6b, #a855f7)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', margin: 0, marginTop: -4 }}>SMASH</h1>
           <p style={{ color: '#555', fontSize: 12, letterSpacing: 3, textTransform: 'uppercase', marginTop: 8 }}>Record. Shuffle. Chaos.</p>
         </div>
 
